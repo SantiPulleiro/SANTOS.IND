@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Descuentos</title>
+    <link rel="stylesheet" href="temas.css">
+</head>
+<header >
+    <div class="bloque_encabezado">
+      <div class="pestañas">
+          <a href="index.html" class="pestañas_inicio">INICIO</a>
+          <a href="indumentaria.html" class="pestañas_inicio">INDUMENTARIA</a>
+      </div>
+  </div>
+      
+  
+  </header>
+<body>
+    <div class="container">
+        <h1>¡Gira y Gana Descuentos!</h1>
+        <div class="game-section">
+            <div class="wheel-wrapper">
+                <div class="marker"></div>
+                <div class="wheel" id="wheel">
+                    <div class="slice" style="--i:0;">5% OFF</div>
+                    <div class="slice" style="--i:1;">10% OFF</div>
+                    <div class="slice" style="--i:2;">15% OFF</div>
+                    <div class="slice" style="--i:3;">20% OFF</div>
+                    <div class="slice" style="--i:4;">5% OFF</div>
+                    <div class="slice" style="--i:5;">10% OFF</div>
+                </div>
+                <button id="spin">Girar</button>
+            </div>
+            <div class="result" id="result"></div>
+        </div>
+    </div>
+    <script src="ruleta.js"></script>
+</body>
+</html>
+
